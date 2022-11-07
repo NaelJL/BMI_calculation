@@ -39,6 +39,7 @@ const result = document.querySelector('.result');
 
 function handleError() {
   displayBMI.textContent = "Woops";
+  displayBMI.style.color = "inherit";
   result.textContent = "Remplissez correctement les inputs."
 }
 
