@@ -11,6 +11,7 @@ body {
   font-family: Lato, Helvetica, sans-serif;
   background: linear-gradient(317deg, #4646ae, #af6edb);
   padding: clamp(20px, 5vw, 50px) 10px 10px;
+  overflow: hidden;
 }
 .container {
   max-width: 850px;
@@ -88,7 +89,7 @@ footer {
 }
 a {
   text-decoration: none;
-  color:rgba(0, 0, 0, 0.5)
+  color:rgba(251, 251, 251, 0.5);
 }
 a:hover {
   font-style: italic;
